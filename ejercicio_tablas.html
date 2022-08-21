@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio tablas</title>
+
+    <style>
+        td,
+        th {
+            border: 5px solid #000;
+            font: Arial, "sans-serif";
+            text-align: center
+        }
+
+        .rojo {
+            border-color: #FF0004;
+        }
+        table.black
+        {
+            border-color: #000;
+        }
+    </style>
+
+<body>
+    <table width="100%" border="5" class="black" cellspacing="10">
+        <tbody>
+            <tr>
+                <td bgcolor="#888">
+                    <table width="100%" align="center" cellspacing="10" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td height="50" colspan="5" bgcolor="#FFD600"><strong>CURSOS 2020</strong></td>
+                            </tr>
+                            <tr bordercolor="#fff">
+                                <td height="50" bgcolor="#444444"
+                                    style="font-family: Arial, sans-serif; text-align: center; color:#FFFFFF;">LUNES
+                                </td>
+                                <td bgcolor="#444444" style="color:#FFFFFF;">MARTES</td>
+                                <td bgcolor="#444444" style="color:#FFFFFF;">MIERCOLES</td>
+                                <td bgcolor="#444444" style="color:#FFFFFF;">JUEVES</td>
+                                <td bgcolor="#444444" style="color:#FFFFFF;">VIERNES</td>
+                            </tr>
+                            <tr>
+                                <td height="49">PHP</td>
+                                <td>FLASH</td>
+                                <td rowspan="2" class="rojo">HTML</td>
+                                <td colspan="2">PHP</td>
+                            </tr>
+                            <tr>
+                                <td height="54" colspan="2">CSS</td>
+                                <td>DW</td>
+                                <td rowspan="2">FLASH</td>
+                            </tr>
+                            <tr>
+                                <td height="50" colspan="2">PHP</td>
+                                <td>FLASH</td>
+                                <td>CSS</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+</body>
+
+</html>
