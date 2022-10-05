@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* .section__ancho article, .section__contacto, .section__servicio,
+.section__servicio--reverse {
+  display: grid;
+  justify-content: center;
+  align-items: center; } */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: #333;
+  font-size: 1rem; }
+  @media (min-width: 992px) {
+    body {
+      font-size: 1.1rem; } }
+
+h1,
+h2,
+h3 {
+  font-family: 'Work Sans', serif;
+  font-weight: 700;
+  color: #333; }
+
+h1,
+h2 {
+  margin: 20px 0; }
+  @media (min-width: 768px) {
+    h1,
+    h2 {
+      margin: 40px 0 20px 0; } }
+
+h1 {
+  font-size: 2rem; }
+
+h4,
+h5,
+h6 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: #333; }
+
+h5 {
+  font-size: 1.15rem; }
+  @media (min-width: 992px) {
+    h5 {
+      font-size: 1.25rem; } }
+
+img {
+  max-width: 100%; }
+
+section p {
+  padding: 10px 0; }
+
+section h1 {
+  margin-bottom: 5rem; }
+
+/* body {
+  min-height: 200vh; } */
+
+.center--text {
+  text-align: center; }
+
+header {
+    background-color: #2c2c2c;
+    min-height: 100vh;
+}
+nav {    
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+    align-items: center;
+    color: #fff;
+}
+/* main {
+    padding: 0 50px;
+} */
+.logo {
+    width: 150px;
+}
+.imgheader {
+  background: rgba(0, 0, 0, 0.5) url(../img/ba1.jpg);
+    min-height: 90vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-blend-mode: darken;
+    padding: 50px;
+}
+.header_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.header_content_2 {
+  color: #fff;
+  font-weight: 500;
+  text-align: right;
+
+}
+.header_content_2 h1 {
+  color: #fff;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  display: inline;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 0;
+}
+.menu li:hover {
+  background-color: #7b796c;
+}
+.tkt {
+  color: green;
+  font-weight: 500;
+}
+.tkt:hover {
+  color: #fff;
+}
+
+/*CARDS*/
+.sec_cards_titles {
+  text-align: center;
+  padding: 40px;
+}
+.sec_cards_titles h2, .sec_cards_titles h5 {
+  padding: 0;
+  margin: 0;
+}
+.contenedor__cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  
+  .cards {
+    max-width: 20em;
+    margin: 1em 0;
+    background-color: rgba(250, 250, 250, 0.95);
+    border: 1px solid #d1d1d1;
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      .cards {
+        margin: 1em; } }
+  
+  .cards__imagen {
+    max-height: 20em; }
+    .cards__imagen img {
+      object-fit: cover;
+    width: 100%; }
+  
+  .cards__contenido {
+    padding: 1em 1em 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; }
+    .cards__contenido .cards__cabecera {
+      margin-bottom: 1em; }
+      .cards__contenido .cards__cabecera .cards__nombre {
+        padding-bottom: 0.7em;
+        margin: 0;
+        padding: 0;
+        color: #2d2d2d;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 500;
+        text-align: left; }
+    .cards__contenido .cards__bio {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      flex-grow: 1; }
+    .cards__contenido .cards__date {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      font-weight: 500; }
+      .cards__contenido .cards__date .bx {
+        color: #7b796c; }
+      .cards__contenido .cards__date p {
+        padding: 0;
+        margin: 0; }
+  
+  /* section.tendencias .cards__contenido .cards__cabecera .cards__nombre {
+    text-align: left;
+    font-size: 1.3rem; }
+   */
+.cards_horizontal {
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin: 50px 0;
+}
+.cards_horizontal_txt {
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+}
+.cards_horizontal_txt h2 {
+  color: #fff;
+}
+
+  footer {
+    background-color: #005272;
+margin: 0;
+    min-height: 50px;
+    padding: 20px 50px;
+    text-align: center;
+    color: #fff;
+  }
+  .menuf li:hover {
+    background-color: #002731;
+  }
+  .btn-outline-primary {
+    color: #fff;
+    border-color: #fff;
+  }
+  .formulario {
+    margin: 10px 20%;
+  }
+  .btn-green {
+    background-color: green;
+    color: #fff;
+  }

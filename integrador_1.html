@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Integrador 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <nav>
+            <div class="logo"><img src="img/codoacodo.png" alt="Codo a Codo"></div>
+            <div> CONF BSAS</div>
+<div class="menu"> <ul>
+<li>La Conferencia</li>
+<li>Los Oradores</li>
+<li>Lugar y fecha</li>
+<li>Conviértete en orador</li>
+<li class="tkt">Comprar Tikets</li></ul></div>
+        </nav>
+        <div class="imgheader header_content">
+          <div></div>
+          <div class="header_content_2">  <h1>Conf Bs As</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, 
+            exercitationem molestias similique sequi omnis dolores minus neque architecto quaerat 
+            enim quisquam praesentium fugit iure totam ipsa ut! Delectus, dolorem voluptates.</p> 
+<button class="btn btn-outline-primary">QUIERO SER ORADORES</button>      <button class="btn btn-green">COMPRAR TICKETS</button>   
+            
+            </div>
+          
+        </div>
+    </header>
+<main>
+    <section>
+      <div class="sec_cards_titles"><h5>Conoce a los </h5><h2>ORADORES</h2></div>
+
+<div class="contenedor__cards justify-content-center">
+    <div class="cards">
+      <div class="cards__imagen">
+        <img src="img/steve.jpg" alt="Steve Jobs" />
+      </div>
+      <div class="cards__contenido">
+        <div class="cards__cabecera">
+          <span class="badge bg-warning text-dark">JavaScript</span> <span class="badge bg-info text-dark">React</span>
+          <h3 class="cards__nombre">Steve Jobs</h3>
+        </div>
+        <p class="cards__bio">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, assumenda reiciendis molestiae 
+            soluta quam unde quaerat dignissimos, facilis 
+            ipsum neque eveniet est tempore nihil blanditiis sint adipisci velit quibusdam quasi?</p>
+          </div>
+    </div>
+    <div class="cards">
+      <div class="cards__imagen">
+        <img src="img/bill.jpg" alt="Bill Gates" />
+      </div>
+      <div class="cards__contenido">
+        <div class="cards__cabecera">
+          <span class="badge bg-warning text-dark">JavaScript</span> <span class="badge bg-info text-dark">React</span>
+          <h3 class="cards__nombre">Bill Gates</h3>
+        </div>
+        <p class="cards__bio">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, assumenda reiciendis molestiae 
+            soluta quam unde quaerat dignissimos, facilis 
+            ipsum neque eveniet est tempore nihil blanditiis sint adipisci velit quibusdam quasi?</p>
+          </div>
+    </div>
+
+    <div class="cards">
+      <div class="cards__imagen">
+        <img src="img/ada.jpeg" alt="Ada" />
+      </div>
+      <div class="cards__contenido">
+        <div class="cards__cabecera">
+            <span class="badge bg-danger">Negocios </span> <span class="badge bg-secondary">Startaps</span>  <h3 class="cards__nombre">Ada Lovelace</h3>
+        </div>
+        <p class="cards__bio">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, assumenda reiciendis molestiae 
+        soluta quam unde quaerat dignissimos, facilis 
+        ipsum neque eveniet est tempore nihil blanditiis sint adipisci velit quibusdam quasi?</p>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="cards_horizontal">
+      <div>
+        <img src="img/honolulu.jpg" alt="Foto1">
+      </div>
+<div class="cards_horizontal_txt"> <h2>BS AS Octubre</h2>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis sed enim quod aperiam blanditiis totam obcaecati voluptatum repudiandae saepe ut. Eaque laudantium nesciunt repudiandae eveniet tempore accusantium odio optio sint.
+    Suscipit, repellendus sit quam saepe, necessitatibus qui iure quidem amet illum repellat labore nam nobis cumque, dolorem tenetur impedit quaerat. Mollitia impedit, asperiores praesentium sint eum modi ratione dicta recusandae.</p> 
+    <button class="btn btn-outline-primary">QUIERO CONOCER MÁS</button> </div>    
+  </section>
+<section>
+  <div class="sec_cards_titles"><h5>Conviértete en </h5><h2>ORADOR</h2></div>
+ 
+<form action="" class="row g-3 formulario">
+  <p>Anónate como orador para dar una charla ignite. Cuéntanos de que quieres hablar</p>  
+      <div class="col-md-6">
+        <input type="text" class="form-control" id="nombre" placeholder="Nombre"> 
+      </div>
+      <div class="col-md-6">
+        <input type="text" class="form-control" id="apellido" placeholder="Apellido"> 
+      </div>
+
+      <div class="col-md-12">
+        <textarea name="textarea" rows="10" class="form-control"  placeholder="Sobre qué quieres hablar?"></textarea>
+      <p>Recuerda incluir un título para tu charla</p> 
+      </div>
+  <div class="col-12 d-grid">
+    <button type="submit" class="btn btn-green">Enviar</button>
+  </div>
+</form>
+</section>
+</main>
+<footer>
+    <div class="menu menuf"> <ul>
+        <li>Preguntas frecuentes</li>
+        <li>Contáctenos</li>
+        <li>Prensa</li>
+        <li>Términos y Condiciones</li>
+        <li>Comprar Tikets</li>
+        <li>Privacidad</li>
+        <li>Estudiantes</li>
+    </ul></div>
+
+
+</footer>
+</body>
+</html>
